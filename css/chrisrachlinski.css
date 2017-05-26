@@ -4,3 +4,20 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	font-family: 'Roboto', sans-serif;
 }
+img {
+    width: 100%;
+}
+.mountain-bg {
+    background-image: url(../assets/mountains-bg.svg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 50%;
+}
+
+
+.below-bg {
+    background-image: url(../assets/underground-bg.svg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 50%;
+}
