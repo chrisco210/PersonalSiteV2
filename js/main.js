@@ -5,7 +5,11 @@ var options = [
 	 	}
 	 },
 ];
+
+
 $(document).ready(function () {
-	window.setInterval(flashCursor, 600);
+	//window.setInterval(flashCursor, 600);
 	Materialize.scrollFire(options);
+    var i = 0;
+    window.setInterval(function(){createTitle(i); i++;}, 200);
 });
