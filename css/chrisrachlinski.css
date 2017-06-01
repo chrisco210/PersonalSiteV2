@@ -8,17 +8,30 @@ img {
     width: 100%;
 }
 .mountain-bg {
-    background-image: url(../assets/mountains-bg.svg);
+    background-image: url(../assets/vectors/mountains-bg.svg);
+    background-repeat: no-repeat;
+    background-position:bottom;
     background-size: cover;
-    background-repeat:no-repeat;
-    height: 50%;
+    background-attachment:fixed;
+    z-index: -100000;
 }
 
 
 .below-bg {
-    background-image: url(../assets/underground-bg.svg);
-    background-size: cover;
+    background-image: url(../assets/vectors/underground-bg.svg);
     background-repeat: no-repeat;
-    height: 100%;
+    background-attachment:  fixed;
+    background-position:bottom;
+    background-size: cover;
     
+}
+.full-width-img {
+    left: -30%;
+    width: 100vw; 
+}
+.parallax {
+    z-index: 1000;
+}
+.noborder {
+    border-style:none;
 }

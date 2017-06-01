@@ -9,7 +9,11 @@ var options = [
 
 $(document).ready(function () {
 	//window.setInterval(flashCursor, 600);
+    
+    
 	Materialize.scrollFire(options);
+    $('.parallax').parallax();
+    $('.slider').slider();
     var i = 0;
     window.setInterval(function(){createTitle(i); i++;}, 200);
 });
