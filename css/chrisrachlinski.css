@@ -35,3 +35,8 @@ img {
 .noborder {
     border-style:none;
 }
+
+.trip-image-display {
+    object-fit: cover;
+    max-height: 450px;
+}
