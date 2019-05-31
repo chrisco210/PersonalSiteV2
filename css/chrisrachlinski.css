@@ -24,9 +24,9 @@ img {
     color: #ff5722;
 }
 
-#titleTextInput:valid {
-    border-width: 0px;
-    color: #000000;
+#titleTextInput:focus {
+    border-bottom: none!important;
+    box-shadow: none!important;
 }
 
 
